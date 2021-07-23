@@ -1,0 +1,5 @@
+CREATE TABLE saying
+(
+    id SERIAL NOT NULL PRIMARY KEY,
+    text VARCHAR(1024)
+);
