@@ -28,17 +28,17 @@ docker-compose up
 
 * Получить все высказывания
 ```
-curl http://localhost:8080
+curl http://localhost:8091
 ```
 
 * Получить одно случайно выбранное высказывание
 ```
-curl http://localhost:8080/random
+curl http://localhost:8091/random
 ```
 
 * Сохранить в базе данных новое высказывание
 ```
-curl -X POST -H 'Content-Type: application/json' -d '{"text": "Всё приходит в своё время для тех, кто умеет ждать."}' http://localhost:8080
+curl -X POST -H 'Content-Type: application/json' -d '{"text": "Всё приходит в своё время для тех, кто умеет ждать."}' http://localhost:8091
 ```
 
 * Удалить высказывание по его идентификатору
